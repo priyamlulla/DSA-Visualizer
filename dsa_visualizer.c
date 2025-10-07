@@ -91,7 +91,7 @@ void push() {
         fflush(stdout);
         return;
     }
-    printf("Enter value to push: ");
+    printf("\nEnter value to push: ");
     fflush(stdout);
     scanf("%d", &val);
     stack[++top] = val;
